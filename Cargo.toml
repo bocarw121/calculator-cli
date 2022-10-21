@@ -1,9 +1,15 @@
 [package]
-name = "calc"
-version = "0.1.0"
+name = "calcul8"
+version = "1.0.2"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+authors = ["Bocar Wane < "]
+description = "A simple calculator CLI"
+repository = "https://github.com/bocarw121/calculator-cli.git"
+categories = ["command-line-utilities", "command-line-interface", "mathematics"]
+keywords = ["mathematics", "calculator", "cli"]
+homepage = "https://github.com/bocarw121/calculator-cli.git"
 
 [dependencies]
 clap = { version = "4.0.17", features = ["derive"] }
+colored = "2.0.0"
